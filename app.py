@@ -8,7 +8,7 @@ st.title("ChatGPT Plus DALL-E")
 with st.form("form"):
     user_input = st.text_input("Prompt")
     size = st.selectbox("Size", ["1024x1024", "512x512", "256x256"])
-    submit = st.form_submit_button("제출")
+    submit = st.form_submit_button("Submit")
     
 if submit and user_input:
     # st.write(user_input)
